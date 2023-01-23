@@ -20,7 +20,7 @@ function App() {
             <p className="nav-link">Learn about the solar system</p>
           </li>
           <li className="nav-item">
-            <p className="nav-link disabled">History of space exploration</p>
+            <p className="nav-link">History of space exploration</p>
           </li>
         </ul>
       </div>
