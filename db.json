@@ -105,7 +105,7 @@
       "Average orbital speed": "9.69 km/s (6 miles/s)",
       "Moons": "62",
       "Planet type": "gas giant"
-          },
+    },
     {
       "id": "8",
       "name": "Uranus",
@@ -120,7 +120,6 @@
       "Year length": "84.01 Earth years",
       "Average orbital speed": "6.81 km/s (4.22 miles/s)",
       "Moons": "27",
-      "Planet type": "gas giant"
     },
     {
       "id": "9",
@@ -153,6 +152,7 @@
       "Average orbital speed": "4.67 km/s (2.9 miles/s)",
       "Moons": "5",
       "Planet type": "dwarf planet"
+
     }
   ]
 }
