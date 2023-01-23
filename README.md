@@ -4,37 +4,82 @@
 This is a web application that enables a user to search  for planets in the solar system, publish comments on different planet cards and access learning materials about the solar system.
 This web application will allow users to virtually explore various celestial bodies, including planets, moons, asteroids, and comets within our solar system
 
-# How To Run The Project
-In your project directory, create a db.json file for your server database.
-Run the command json-server --watch db.json to start the backend server.
-Test your server by visiting the route  http://localhost:5000/solar-system in your browser.
-To deploy this project run ( npm run deploy)
-
 ## Set-Up Instruction
-1.Create a new project folder and navigate into it.
-2.Create a new GitHub repository and make sure to keep it private.
-3.Regularly commit your progress to the repository.
+In order to run the application, follow the steps below:
 
-### Core Deliverables:
- As a user, I should be able to:
+Clone the project
+
+  ```bash
+  git clone git@github.com:keithkiama/phase-2-group-2-nasa-group-project.git
+  ```
+  Navigate into the project directory
+
+  ```bash
+    cd phase-2-group-2-nasa-group-project
+  ```
+
+  Install  npm dependencies
+
+  ```bash
+    npm install
+  ```
+
+  Start the servers:
+
+  ```bash
+    npm run start
+
+    npm run api
+  ```
+
+## User Path:
+
+ As a user, you should be able to:
  
  - Search for a planet in the solar system
+
  - Click a planet card and view its details
+
  - Publish comments on planet cards
- - Access educational learning materials with interactive videos and links, designed to teach      about the solar system and space exploration.
+
+ - Access educational learning materials with interactive videos and links, designed to teach about the solar system and space exploration.
+
  - See key information such as distance from Earth, composition, and the number of known satellites.
 
-## Badges
+## What was used
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/keithkiama/phase-2-group-2-nasa-group-project/blob/master/LICENSE)![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=flat&logo=netlify&logoColor=#00C7B7) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=flat&logo=npm&logoColor=white)![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
 
 ## Authors
 
 - [@keithkiama](https://www.github.com/keithkiama)
+
+- [@eve-atieno](https://github.com/eve-atieno)
+
+- [kagu-dante](https://github.com/kagu-dante)
+
+- [mukandalee](https://github.com/mukandalee)
+
+## Acknowledgements
+
+ - [Nasa Website](https://www.nasa.gov/)
+## Support
+
+For support email:
+
+ - Keith Kiama Maina - keithkiama2003@gmail.com or keith.maina01@gmail.com.com
+
+ - Daniel Njuguna - daniel.njuguna@student.moringaschool.com
+
+ - Evelyne Atieno - everline.adhiambo@student.moringaschool.com
+
+ - Leonard Mukanda - leonard.mukanda@student.moringaschool.com
+
+
+
+
 
 
 
