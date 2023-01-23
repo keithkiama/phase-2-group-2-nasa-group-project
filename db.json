@@ -1,19 +1,158 @@
 {
-  "posts": [
+  "Solar System": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "id": "1",
+      "name": "Sun",
+      "galaxy": "Milky Way Galaxy",
+      "image": "",
+      "description":"Sun, star around which Earth and the other components of the solar system revolve. It is the dominant body of the system, constituting more than 99 percent of its entire mass. The Sun is the source of an enormous amount of energy, a portion of which provides Earth with the light and heat necessary to support life.",
+      "Equator circumference": "4.379 million km",
+      "Radius": "696,340 km",
+      "Surface temperature": "5504.85 °C"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "2",
+      "name": "Mercury",
+      "galaxy": "Milky Way Galaxy",
+      "image": "",
+      "description": "Mercury, the innermost planet of the solar system and the eighth in size and mass. Its closeness to the Sun and its smallness make it the most elusive of the planets visible to the unaided eye. Because its rising or setting is always within about two hours of the Sun's, it is never observable when the sky is fully dark",
+      "Equator circumference": "15,329km",
+      "Radius": "2,440km",
+      "Average distance from Sun": "58 million km",
+      "Surface temperature": "-180°C to 430°C",
+      "Day length": "59 Earth days",
+      "Year length": "88 Earth days",
+      "Average orbital speed": "170,500km/h (47km/s)",
+      "Moons": "0",
+      "Planet type": "terrestrial"
+    },
+    {
+      "id": "3",
+      "name": "Venus",
+      "galaxy": "Milky Way Galaxy",
+      "image": "",
+      "description":"",
+      "Equator circumference": "",
+      "Radius": "",
+      "Average distance from Sun": "",
+      "Surface temperature": "",
+      "Day length": "",
+      "Year length": "",
+      "Average orbital speed": "",
+      "Moons": "0",
+      "Planet type": "terrestrial"
+    },
+    {
+      "id": "4",
+      "name": "Earth",
+      "galaxy": "Milky Way Galaxy",
+      "image": "",
+      "description":"",
+      "Equator circumference": "",
+      "Radius": "",
+      "Average distance from Sun": "",
+      "Surface temperature": "",
+      "Day length": "",
+      "Year length": "",
+      "Average orbital speed": "",
+      "Moons": "",
+      "Planet type": ""
+    },
+    {
+      "id": "5",
+      "name": "Mars",
+      "galaxy": "Milky Way Galaxy",
+      "image": "",
+      "description":"",
+      "Equator circumference": "",
+      "Radius": "",
+      "Average distance from Sun": "",
+      "Surface temperature": "",
+      "Day length": "",
+      "Year length": "",
+      "Average orbital speed": "",
+      "Moons": "",
+      "Planet type": ""
+    },
+    {
+      "id": "6",
+      "name": "Jupiter",
+      "galaxy": "Milky Way Galaxy",
+      "image": "",
+      "description":"",
+      "Equator circumference": "",
+      "Radius": "",
+      "Average distance from Sun": "",
+      "Surface temperature": "",
+      "Day length": "",
+      "Year length": "",
+      "Average orbital speed": "",
+      "Moons": "",
+      "Planet type": ""
+    },
+    {
+      "id": "7",
+      "name": "Saturn",
+      "galaxy": "Milky Way Galaxy",
+      "image": "",
+      "description":"",
+      "Equator circumference": "",
+      "Radius": "",
+      "Average distance from Sun": "",
+      "Surface temperature": "",
+      "Day length": "",
+      "Year length": "",
+      "Average orbital speed": "",
+      "Moons": "",
+      "Planet type": ""
+    },
+    {
+      "id": "8",
+      "name": "Uranus",
+      "galaxy": "Milky Way Galaxy",
+      "image": "",
+      "description":"",
+      "Equator circumference": "",
+      "Radius": "",
+      "Average distance from Sun": "",
+      "Surface temperature": "",
+      "Day length": "",
+      "Year length": "",
+      "Average orbital speed": "",
+      "Moons": "",
+      "Planet type": ""
+    },
+    {
+      "id": "9",
+      "name": "Neptune",
+      "galaxy": "Milky Way Galaxy",
+      "image": "",
+      "description":"",
+      "Equator circumference": "",
+      "Radius": "",
+      "Average distance from Sun": "",
+      "Surface temperature": "",
+      "Day length": "",
+      "Year length": "",
+      "Average orbital speed": "",
+      "Moons": "",
+      "Planet type": ""
+    },
+    {
+      "id": "10",
+      "name": "Pluto",
+      "galaxy": "Milky Way Galaxy",
+      "image": "",
+      "description":"",
+      "Equator circumference": "",
+      "Radius": "",
+      "Average distance from Sun": "",
+      "Surface temperature": "",
+      "Day length": "",
+      "Year length": "",
+      "Average orbital speed": "",
+      "Moons": "",
+      "Planet type": ""
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
