@@ -37,17 +37,18 @@ This web application will allow users to virtually explore various celestial bod
 ## Acknowledgements
 
  - [NASA Website](https://www.nasa.gov/)
+ 
 ## Support
 
-For support email:
+For support, reach out to the following people:
 
- - Keith Kiama Maina - keithkiama2003@gmail.com or keith.maina01@gmail.com.com
+ - Keith Kiama Maina - https://www.github.com/keithkiama
 
- - Daniel Njuguna - daniel.njuguna@student.moringaschool.com
+ - Daniel Njuguna - https://github.com/kagu-dante
 
- - Evelyne Atieno - everline.adhiambo@student.moringaschool.com
+ - Evelyne Atieno - https://github.com/eve-atieno
 
- - Leonard Mukanda - leonard.mukanda@student.moringaschool.com
+ - Leonard Mukanda - https://github.com/mukandalee
 
 
 
