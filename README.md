@@ -4,34 +4,6 @@
 This is a web application that enables a user to search  for planets in the solar system, publish comments on different planet cards and access learning materials about the solar system.
 This web application will allow users to virtually explore various celestial bodies, including planets, moons, asteroids, and comets within our solar system
 
-## Set-Up Instruction
-In order to run the application, follow the steps below:
-
-Clone the project
-
-  ```bash
-  git clone git@github.com:keithkiama/phase-2-group-2-nasa-group-project.git
-  ```
-  Navigate into the project directory
-
-  ```bash
-    cd phase-2-group-2-nasa-group-project
-  ```
-
-  Install  npm dependencies
-
-  ```bash
-    npm install
-  ```
-
-  Start the servers:
-
-  ```bash
-    npm run start
-
-    npm run api
-  ```
-
 ## User Path:
 
  As a user, you should be able to:
