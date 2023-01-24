@@ -1,4 +1,3 @@
-import '../styles/App.css';
 import NavBar from './NavBar';
 import Cards from './Cards';
 import FetchData from './FetchData';
