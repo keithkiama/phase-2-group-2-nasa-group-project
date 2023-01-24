@@ -62,7 +62,7 @@
       "id": "5",
       "name": "Mars",
       "galaxy": "Milky Way Galaxy",
-      "image": ".images/Mars.jpg",
+      "image": "images/Mars.jpg",
       "description":" Mars is the fourth planet from the Sun and is often referred to as the 'Red Planet' due to its reddish appearance. It is a terrestrial planet that is similar in many ways to Earth, including the presence of polar ice caps and a thin atmosphere. It has been explored by several spacecraft missions, and it is considered as a potential destination for human exploration in the future.",
       "equator-circumference": "21,297 km (13,251 miles)",
       "radius": "3,390 km (2,106 miles)",

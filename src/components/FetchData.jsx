@@ -18,6 +18,7 @@ const FetchData = () => {
 
   return (
     <>
+    <h1 className='card-header' style={{textAlign: 'center'}}>The Bodies in our Solar System</h1>
     {cardLoop}
     </>
   )
