@@ -1,14 +1,18 @@
-import '../styles/App.css';
 import NavBar from './NavBar';
 import Cards from './Cards';
-import MoreAboutSolarSytem from './MoreAboutSolarSystem';
+import Learn from './Learn';
+import FetchData from './FetchData';
+import Home from './Home';
 
 function App() {
   return (
   <div className = "App">
     <NavBar />
+    <Home />
     <Cards />
-    <MoreAboutSolarSytem/>
+    <Learn/>
+    <FetchData />
+
   </div>
   );
 }
