@@ -10,7 +10,11 @@ const NavBar = () => {
              <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse float-right" id="navbarNav">
-            <ul className="navbar-nav ml-auto">
+
+            
+
+            <ul className="navbar-nav ml auto">
+
                 <li className="nav-item">
                     <p className="nav-link" aria-current="page">Home</p>
                 </li>
@@ -25,9 +29,11 @@ const NavBar = () => {
                 </li>
             </ul>
             <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+
+                <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button className="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
             </div>
         </div>
         </nav>
