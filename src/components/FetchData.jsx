@@ -12,7 +12,7 @@ const FetchData = () => {
 
     const cardLoop = cards.map(card =>{
       return(
-        <Cards key={card.id} id={card.id} image={card.image} description={card.description} />
+        <Cards key={card.id} id={card.id} image={card.image} name={card.name} description={card.description} />
        ) 
   })
 
