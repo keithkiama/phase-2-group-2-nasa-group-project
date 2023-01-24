@@ -15,13 +15,13 @@ const NavBar = () => {
                     <p className="nav-link" aria-current="page">Home</p>
                 </li>
                 <li className="nav-item">
-                    <p className="nav-link">Explore the solar System</p>
+                    <p className="nav-link">Explore</p>
                 </li>
                 <li className="nav-item">
-                    <p className="nav-link">Learn about the solar system</p>
+                    <p className="nav-link">Learn </p>
                 </li>
                 <li className="nav-item">
-                    <p className="nav-link">History of space exploration</p>
+                    <p className="nav-link">History</p>
                 </li>
             </ul>
             </div>
