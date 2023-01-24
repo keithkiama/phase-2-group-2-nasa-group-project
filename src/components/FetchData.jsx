@@ -14,10 +14,11 @@ const FetchData = () => {
       return(
         <Cards key={card.id} id={card.id} image={card.image} name={card.name} description={card.description} />
        ) 
-  })
+    })
 
   return (
     <>
+    <h1 className='card-header' style={{textAlign: 'center'}}>The Bodies in our Solar System</h1>
     {cardLoop}
     </>
   )
