@@ -1,14 +1,12 @@
 import React from 'react'
 
-const Cards = ({title, image, body}) => {
+const Cards = ({image, description,location}) => {
   return (
-    <div className = 'container'>
+    <>
       <img src={image} alt=''></img>
-      <h1> {title}</h1>
-      <p>{body}</p>
-
-    </div>
+      <h1>{description}</h1>
+      <p>{location}</p>
+    </>
   )
-};
-
+}
 export default Cards
