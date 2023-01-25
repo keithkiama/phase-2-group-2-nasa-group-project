@@ -1,19 +1,18 @@
 import React from 'react'
-import "../../src/styles/index.css"
 
 const Explore = ({name, image, description}) => {
   return (
     <>
-    <div className="card-deck" style= {{display : 'inline-grid'}}>
-      <div className="card" style={{width :'18rem', margin : '20px 0 25px 8px',backgroundColor : '#ABBBBA'}}>
-        <img src={image} style={{height:240, backgroundSize : 'cover', backgroundPosition: 'centre'}} className="card-img-top" alt=""/>
-        <div className="card-body">
-          <h5 className="card-title">{name}</h5>
-          <p className="card-text">{description}</p>
-          <p className="btn btn-primary">View</p>
+      <div className="card-deck" style= {{display : 'inline-grid'}}>
+        <div className="card" style={{width :'18rem', margin : '15px 10px 25px 5px',backgroundColor : '#323233'}}>
+          <img src={image} style={{height:240, backgroundSize : 'cover', backgroundPosition: 'centre'}} className="card-img-top" alt=""/>
+          <div className="card-body">
+            <h3 className="card-title" style={{color: '#FFF'}}>{name}</h3>
+            <p className="card-text" style={{color: '#FFF'}}>{description}</p>
+            <p className="btn btn-primary" style={{color: '#FFF'}}>View</p>
+          </div>
         </div>
       </div>
-    </div>
   </>
   )
 }
