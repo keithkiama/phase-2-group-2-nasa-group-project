@@ -12,7 +12,6 @@ const NavBar = () => {
             </button>
             <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul className="navbar-nav ml auto">
-LICENSE
                 <li className="nav-item">
                     <Link className="nav-link" aria-current="page" to="/Home">Home</Link>
                 </li>

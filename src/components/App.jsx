@@ -14,8 +14,7 @@ function App() {
     <NavBar />
     <Home />
     <FetchData />
-    <Learn />
-     <NavBar />
+  
     <Routes>
        <Route exact path = "/" element = {<Home/>} />
        <Route exact path = "/" element = {<FetchData />}/>
