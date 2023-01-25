@@ -6,6 +6,8 @@ import Explore from './Explore';
 import History from './History';
 import Learn from './Learn';
 
+//this is the parent component to all child component
+
 function App() {
   return (
   <div className = "App">
