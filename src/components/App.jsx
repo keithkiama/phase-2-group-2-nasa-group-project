@@ -12,8 +12,9 @@ function App() {
   return (
  <div className = "App">
     <NavBar />
-    {/* <Explore /> */}
-  <switch>
+    <Home />
+    <FetchData />
+    <Learn />
     <Routes>
        <Route exact path = "/" element = {<Home/>} />
        <Route  path = "/Explore" element = {<Explore/>} />
@@ -21,7 +22,7 @@ function App() {
        <Route  path = "/Learn" element = {<Learn/>} />
      
     </Routes>
-    </switch>
+   
   </div>
   );
 }
