@@ -11,7 +11,7 @@ function App() {
   return (
  <div className = "App">
     <NavBar />
-    {/* <FetchData /> */}
+    <FetchData />
     {/* <Learn /> */}
     <Routes>
        <Route exact path = "/" element = {<Home/>} />
