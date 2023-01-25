@@ -12,15 +12,16 @@ function App() {
   return (
  <div className = "App">
     <NavBar />
-    <Home />
-    <FetchData />
+    {/* <Explore /> */}
+  <switch>
     <Routes>
        <Route exact path = "/" element = {<Home/>} />
-       <Route exact path = "/" element = {<FetchData />}/>
-       <Route exact path = "/Explore" element = {<Explore/>} />
-       <Route exact path = "/History" element = {<History/>} />
-       <Route exact path = "/Learn" element = {<Learn/>} />
+       <Route  path = "/Explore" element = {<Explore/>} />
+       <Route  path = "/History" element = {<History/>} />
+       <Route  path = "/Learn" element = {<Learn/>} />
+     
     </Routes>
+    </switch>
   </div>
   );
 }

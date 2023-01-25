@@ -1,5 +1,5 @@
 import React,{ useState , useEffect} from 'react'
-import Cards from './Explore'
+import Explore from './Explore'
 
 const FetchData = () => {
     const [cards, setCards] = useState([])
@@ -12,7 +12,7 @@ const FetchData = () => {
 
     const cardLoop = cards.map(card =>{
       return(
-        <Cards key={card.id} id={card.id} image={card.image} name={card.name} description={card.description} />
+        <Explore key={card.id} id={card.id} image={card.image} name={card.name} description={card.description} />
        ) 
     })
 
