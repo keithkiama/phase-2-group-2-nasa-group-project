@@ -13,7 +13,7 @@ const NavBar = () => {
             <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul className="navbar-nav ml auto">
                 <li className="nav-item">
-                    <Link className="nav-link" aria-current="page" to="/Home" style={{color:'#FFF', fontSize:'25px'}}>Home</Link>
+                    <Link className="nav-link" aria-current="page" to="/" style={{color:'#FFF', fontSize:'25px'}}>Home</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="/Explore" style={{color:'#FFF', fontSize:'25px'}}>Explore</Link>
