@@ -1,10 +1,10 @@
 import React from "react";
- 
-function Learn (){
+
+function Explore (){
     return (
         <div>
-            <h1>Learn</h1>
+            <h1>Explore</h1>
         </div>
     )
 }
-export default Learn;
+export default Explore;
