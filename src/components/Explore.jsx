@@ -17,12 +17,6 @@ const Explore = () => {
     },[search,cards]
     )
 
-    const cardLoop = cards.map(card =>{
-      return(
-        <Card key={card.id} id={card.id} image={card.image} name={card.name} description={card.description} />
-       ) 
-    })
-
   return (
     <>
     <Search Search={search} setSearch={setSearch} />

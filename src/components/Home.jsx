@@ -10,9 +10,6 @@ return (
     backgroundPosition: 'center',
   }}>
     <div style={{textAlign: 'center'}}>
-      <div>
-         <h1 style={{}} > Welcome To The Milky Way</h1>
-         <img src='../images/MilkyWay.jpg'/>
       <h1 style={{color: '#FFF'}} >Welcome to The Milky Way</h1>
       <img  style={{backgroundPosition: 'center', backgroundRepeat: 'no-repeat',backgroundSize: 'center', maxWidth: '29cm'}} src='../../images/MilkyWay.jpg' alt=''/>
         <div className="card bg-black">
@@ -23,7 +20,6 @@ return (
         </div>
     </div>
     </div></div>
-   </div>
   )
 }
 export default Home
