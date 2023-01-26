@@ -1,7 +1,7 @@
 import NavBar from "./NavBar"
 import Home from './Home';
 import {Routes,Route} from 'react-router-dom';
-import FetchData from './FetchData';
+import Explore from './Explore';
 import History from './History';
 import Learn from './Learn';
 
@@ -11,13 +11,11 @@ function App() {
   return (
  <div className = "App">
     <NavBar />
-    <FetchData />
-    {/* <Learn /> */}
     <Routes>
        <Route exact path = "/" element = {<Home/>} />
-       <Route  path = "FetchData" element = {<FetchData/>} />
-       <Route  path = "History" element = {<History/>} />
-       <Route  path = "Learn" element = {<Learn/>} />
+       <Route  path = "explore" element = {<Explore/>} />
+       <Route  path = "history" element = {<History/>} />
+       <Route  path = "learn" element = {<Learn/>} />
     </Routes>
   </div>
   );

@@ -16,13 +16,13 @@ const NavBar = () => {
                     <Link className="nav-link" aria-current="page" to="/" style={{color:'#FFF', fontSize:'25px'}}>Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/Explore" style={{color:'#FFF', fontSize:'25px'}}>Explore</Link>
+                    <Link className="nav-link" to="/explore" style={{color:'#FFF', fontSize:'25px'}}>Explore</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/Learn" style={{color:'#FFF', fontSize:'25px'}}>Learn</Link>
+                    <Link className="nav-link" to="/learn" style={{color:'#FFF', fontSize:'25px'}}>Learn</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/History" style={{color:'#FFF', fontSize:'25px'}}>History</Link>
+                    <Link className="nav-link" to="/history" style={{color:'#FFF', fontSize:'25px'}}>History</Link>
                 </li>
             </ul>
             </div>
