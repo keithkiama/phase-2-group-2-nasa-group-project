@@ -15,7 +15,12 @@ function Learn (){
                 In the following videos you will Learn all about the planets in the Solar System
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/lcZTcfdZ3Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
            </h1>
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/0KBjnNuhRHs?start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>     
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/0KBjnNuhRHs?start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           Our planetary system is located in an outer spiral arm of the Milky Way galaxy.
+
+The Latest
+ The Next Full Moon is the Wolf or Ice Moon
+Our solar system consists of our star, the Sun, and everything bound to it by gravity – the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune; dwarf planets such as Pluto; dozens of moons; and millions of asteroids, comets, and meteoroids. Beyond our own solar system, we have discovered thousands of planetary systems orbiting other stars in the Milky Way.     
            </p>
         </div>
     )
