@@ -13,9 +13,9 @@ function App() {
     <NavBar />
     <Routes>
        <Route exact path = "/" element = {<Home/>} />
-       <Route  path = "explore" element = {<Explore/>} />
-       <Route  path = "history" element = {<History/>} />
-       <Route  path = "learn" element = {<Learn/>} />
+       <Route exact path = "explore" element = {<Explore/>} />
+       <Route exact path = "history" element = {<History/>} />
+       <Route exact path = "learn" element = {<Learn/>} />
     </Routes>
   </div>
   );
