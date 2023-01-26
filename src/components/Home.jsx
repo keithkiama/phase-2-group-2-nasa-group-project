@@ -1,4 +1,5 @@
 import React from 'react'
+
 const Home = () => {
 return (
   <div style={{
@@ -18,8 +19,7 @@ return (
           <iframe width="1000" height="550" src="https://www.youtube.com/embed/tj_QPnO8vpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
-    </div>
-   </div>
+    </div></div>
   )
 }
 export default Home

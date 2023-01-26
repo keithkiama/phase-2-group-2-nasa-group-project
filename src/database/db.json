@@ -155,7 +155,6 @@
       "planet-type": "dwarf planet"
     }
   ],
-
   "comments": [
     {
       "id": 1,
@@ -324,5 +323,43 @@
       "postId": 21,
       "likeCount": 107
     }
+  ],
+  "space-exploration":[
+    {
+      "id": "1",
+      "space-image":"images/lopez",
+      "space-heading":  "astronaut outside the International Space Station",
+      "space-description" : "U.S. space shuttle astronaut Michael Lopez-Alegria floating in space outside the Unity module of the International Space Station in October 2000, during an early stage of the station's assembly in Earth orbit."
+    },
+    {
+      "id": "2",
+      "space-image":"images/nursery-Eagle-Nebula",
+      "space-heading":  "Eagle Nebula",
+      "space-description" : "A stellar nursery in the Eagle Nebula (M16, NGC 6611). This detail of a composite image taken by the Earth-orbiting Hubble Space Telescope reveals a glowing column of dust and cold gas populated by embryonic stars forming from molecular hydrogen within the column."
+    },
+    {
+      "id": "3",
+      "space-image":"images/Hurricane-irene",
+      "space-heading":  "Hurricane Irene",
+      "space-description" : "Satellite image of Hurricane Irene taken on August 26, 2011."
+    },
+    { "id": "4",
+      "space-image":"images/cassini-saturn-orbit",
+      "space-heading":  "Cassini-Huygens spacecraft",
+      "space-description" : "The insertion of Cassini into Saturn's orbit, 2004."
+    },
+    { "id": "5",
+      "space-image":"images/reconnaissance-satellite-images-corona",
+      "space-heading":  "Corona reconnaissance satellite images",
+      "space-description" : "Two U.S. Corona reconnaissance satellite images made a year apart—in mid-1961 (top) and mid-1962 (bottom)—revealing the construction of a new Soviet SS-7 Saddler (R-16) intercontinental ballistic missile site. Located at Yur'ya, Russia, the site was the first Soviet ICBM complex to be identified in Corona images. "
+    },
+    {  "id": "6",
+      "space-image":"images/TIROS-7",
+      "space-heading":  "TIROS 7",
+      "space-description" : " TIROS 7 (Television and Infra-Red Observation Satellite 7), launched June 19, 1963. The first series of U.S. TIROS spacecraft, placed into Earth orbit 1960–65, paved the way for the development of satellite systems to conduct routine daily weather and atmospheric monitoring."
+    }
+
+
   ]
+
 }
