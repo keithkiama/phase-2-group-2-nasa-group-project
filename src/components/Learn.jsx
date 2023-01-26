@@ -19,8 +19,6 @@ const Learn = () => {
              
               <div className="card-body">
               <p className="card-text" style={{color: '#FFF', fontSize: '8mm',marginBottom: '10px'}}>What are the types of Planets?</p>
-              In the following videos you will Learn all about the planets in the Solar System
-              
               <iframe width="1000" height="550" src="https://www.youtube.com/embed/lcZTcfdZ3Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
