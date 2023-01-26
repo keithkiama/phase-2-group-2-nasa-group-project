@@ -9,7 +9,6 @@ const Card = ({name, image, description}) => {
           <div className="card-body">
             <h3 className="card-title" style={{color: '#FFF'}}>{name}</h3>
             <p className="card-text" style={{color: '#FFF'}}>{description}</p>
-            <button className="btn btn-primary" style={{color: '#FFF'}}>View</button>
           </div>
         </div>
       </div>
