@@ -1,4 +1,5 @@
 import React from 'react'
+
 const Home = () => {
 return (
   <div style={{
@@ -9,6 +10,9 @@ return (
     backgroundPosition: 'center',
   }}>
     <div style={{textAlign: 'center'}}>
+      <div>
+         <h1 style={{}} > Welcome To The Milky Way</h1>
+         <img src='../images/MilkyWay.jpg'/>
       <h1 style={{color: '#FFF'}} >Welcome to The Milky Way</h1>
       <img  style={{backgroundPosition: 'center', backgroundRepeat: 'no-repeat',backgroundSize: 'center', maxWidth: '29cm'}} src='../../images/MilkyWay.jpg' alt=''/>
         <div className="card bg-black">
@@ -18,7 +22,7 @@ return (
           <iframe width="1000" height="550" src="https://www.youtube.com/embed/tj_QPnO8vpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
-    </div>
+    </div></div>
    </div>
   )
 }
