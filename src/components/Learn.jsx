@@ -1,28 +1,31 @@
 import React from "react";
 
- 
-function Learn (){
+const Learn = () => {
     return (
-        <div>
-           <h1><b>Learn more about Solar system</b></h1>
-           <img></img>
-           <p>Why is it Called the Solar System?
-           There are many planetary systems like ours in the universe, with planets orbiting a host star. Our planetary system is called “the solar system” because we use the word “solar” to describe things related to our star, after the Latin word for Sun, "solis."
-           <h1>
-            <b>
-                What are the types of Planets?
-                </b>
-                In the following videos you will Learn all about the planets in the Solar System
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/lcZTcfdZ3Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-           </h1>
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/0KBjnNuhRHs?start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-           Our planetary system is located in an outer spiral arm of the Milky Way galaxy.
-
-The Latest
- The Next Full Moon is the Wolf or Ice Moon
-Our solar system consists of our star, the Sun, and everything bound to it by gravity – the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune; dwarf planets such as Pluto; dozens of moons; and millions of asteroids, comets, and meteoroids. Beyond our own solar system, we have discovered thousands of planetary systems orbiting other stars in the Milky Way.     
-           </p>
+      <div style={{
+        width: '100%',
+        height: '100%',
+        backgroundImage: 'url("https://images.unsplash.com/photo-1532721344391-eaf75d3ab37f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}>
+        <div style={{textAlign: 'center'}}>
+          <h1 style={{color: '#FFF'}} ><b>Learn more about Solar system</b></h1>
+          <img  style={{backgroundPosition: 'center', backgroundRepeat: 'no-repeat',backgroundSize: 'center', maxWidth: '29cm'}} src='../../images/solarsystem.jpg' alt=''/>
+            <div className="card bg-black">
+              <h1 className="card-header" style={{color: '#FFF',fontSize: '8mm'}}>Why is it Called the Solar System?
+              </h1>
+              <p style={{fontsize: "14mm", color:"#FFF"}}> There are many planetary systems like ours in the universe, with planets orbiting a host star. Our planetary system is called “the solar system” because we use the word “solar” to describe things related to our star, after the Latin word for Sun, "solis."</p>
+             
+              <div className="card-body">
+              <p className="card-text" style={{color: '#FFF', fontSize: '8mm',marginBottom: '10px'}}>What are the types of Planets?</p>
+              In the following videos you will Learn all about the planets in the Solar System
+              
+              <iframe width="1000" height="550" src="https://www.youtube.com/embed/lcZTcfdZ3Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
-    )
-}
+        </div>
+      </div>
+      )
+    }
 export default Learn;
