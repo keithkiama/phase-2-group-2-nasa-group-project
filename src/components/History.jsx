@@ -1,5 +1,6 @@
 import React from "react";
 import Cards from './Explore'
+// this is history component
 
 function History(){
 

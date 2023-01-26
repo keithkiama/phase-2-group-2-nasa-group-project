@@ -1,5 +1,4 @@
-import NavBar from './NavBar';
-import FetchData from './FetchData';
+import NavBar from "./NavBar"
 import Home from './Home';
 import {Routes,Route} from 'react-router-dom';
 import Explore from './Explore';
@@ -12,14 +11,11 @@ function App() {
   return (
  <div className = "App">
     <NavBar />
-    <Home />
-    <FetchData />
     <Routes>
        <Route exact path = "/" element = {<Home/>} />
-       <Route exact path = "/" element = {<FetchData />}/>
-       <Route exact path = "/Explore" element = {<Explore/>} />
-       <Route exact path = "/History" element = {<History/>} />
-       <Route exact path = "/Learn" element = {<Learn/>} />
+       <Route  path = "explore" element = {<Explore/>} />
+       <Route  path = "history" element = {<History/>} />
+       <Route  path = "learn" element = {<Learn/>} />
     </Routes>
   </div>
   );
