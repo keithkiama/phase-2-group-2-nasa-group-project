@@ -10,7 +10,7 @@ const NavBar = () => {
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
              <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav ml auto">
                 <li className="nav-item">
                     <Link className="nav-link" aria-current="page" to="/" style={{color:'#FFF', fontSize:'25px'}}>Home</Link>
@@ -26,10 +26,6 @@ const NavBar = () => {
                 </li>
             </ul>
             </div>
-            {/* <form className="d-flex" role="search">
-                <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button className="btn btn-success" type="submit">Search</button>
-            </form> */}
         </div>
         </nav>
 
