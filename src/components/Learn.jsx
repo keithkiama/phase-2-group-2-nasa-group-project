@@ -17,6 +17,7 @@ const Learn = () => {
               </h1>
               <p style={{fontsize: "50mm", color:"#FFF"}}> There are many planetary systems like ours in the universe, with planets orbiting a host star. Our planetary system is called “the solar system” because we use the word “solar” to describe things related to our star, after the Latin word for Sun, "solis."</p>
               <div className="card-body">
+
               <p className="card-text" style={{color: '#FFF', fontSize: '8mm',marginBottom: '10px'}}>What Are The Nine Planets?</p>
               <p style={{fontSize:'6mm',color:'#FFF'}}>In the following videos you will Learn all about the planets in the Solar System</p>
               
