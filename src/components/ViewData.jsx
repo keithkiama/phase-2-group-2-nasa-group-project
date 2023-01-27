@@ -78,31 +78,3 @@ export default ViewData
 
 
 
-// import React,{useEffect, useState} from "react";
-
-
-// function viewData({viewData}) {
-  
-//    return (
-//        <div>
-//       <ul>
-//         <li>{viewData.galaxy}</li>
-//         <li>{viewData.equatorCircumference}</li>
-//         <li>{viewData.radius}</li>
-//         <li>{viewData.averageDistanceFromSun}</li>
-//         <li>{viewData.surfaceTemperature}</li>
-//         <li>{viewData.dayLength}</li>
-//         <li>{viewData.yearLength}</li>
-//         <li>{viewData.averageorbitalSpeed}</li>
-//         <li>{viewData.moons}</li>
-//         <li>{viewData.planetType}</li>
-//       </ul>
-      
-    
-   
-//         </div>
-//    )
-
-// }
-
-// export default viewData;
