@@ -24,7 +24,8 @@ const Explore = () => {
     <h1 className='card-header' style={{textAlign: 'center', color:'#FFF',paddingTop:'10px',backgroundColor:'black'}}>The Bodies in our Solar System</h1>
       {filtered.map(card =>{
         return(
-          <Card key={card.id} id={card.id} image={card.image} name={card.name} description={card.description} />
+          <Card key={card.id} id={card.id} image={card.image} name={card.name} description={card.description} galaxy={card.galaxy} />
+
         ) 
       })}
     </div>
