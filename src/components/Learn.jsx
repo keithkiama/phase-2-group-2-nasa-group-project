@@ -13,11 +13,14 @@ const Learn = () => {
           <h1 style={{color: '#FFF'}} ><b>Learn more about Solar system</b></h1>
           <img  style={{backgroundPosition: 'center', backgroundRepeat: 'no-repeat',backgroundSize: 'center', maxWidth: '29cm'}} src='../../images/solarsystem.jpg' alt=''/>
             <div className="card bg-black">
+
               <h1 className="card-header" style={{color: '#FFF',fontSize: '8mm'}}>Why is it Called the Solar System?</h1>
               <p style={{fontsize: "50mm", color:"#FFF"}}> There are many planetary systems like ours in the universe, with planets orbiting a host star. Our planetary system is called “the solar system” because we use the word “solar” to describe things related to our star, after the Latin word for Sun, "solis."</p>
-             
               <div className="card-body">
-              <p className="card-text" style={{color: '#FFF', fontSize: '8mm',marginBottom: '10px'}}>What are the types of Planets?</p>
+
+              <p className="card-text" style={{color: '#FFF', fontSize: '8mm',marginBottom: '10px'}}>What Are The Nine Planets?</p>
+              <p style={{fontSize:'6mm',color:'#FFF'}}>In the following videos you will Learn all about the planets in the Solar System</p>
+              
               <iframe width="1000" height="550" src="https://www.youtube.com/embed/lcZTcfdZ3Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
