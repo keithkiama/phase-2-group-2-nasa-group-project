@@ -4,6 +4,7 @@ const History = () => {
   return (
     <div style={{backgroundImage:  'linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url("https://wallpaperaccess.com/full/4141105.jpg")',backgroundRepeat:'no-repeat',height:'100%',width:'100%',backgroundSize: 'cover',backgroundPosition: 'center'}}>
         <h1 style={{textAlign: 'center',color:'white'}}>The History of space Exploration</h1>
+        <h2 style={{textAlign: 'center',color:'white', fontSize:'6mm'}}>The Most Influential Missions to Space</h2>
         <p style={{color: 'white',fontSize:'25px',paddingTop: ' 5px'}}>
             <strong>
                 "Pioneer 10 and 11"

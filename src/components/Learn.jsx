@@ -8,8 +8,8 @@ const Learn = () => {
       <h2 style={{textAlign:'center', color:'white'}}>Why is it called the solar system?</h2>
         <p style={{textAlign:'center', color:'white',fontSize: '8mm', backgroundColor: 'black'}}>There are many planetary systems like ours in the universe, with planets orbiting a host star. Our planetary system is called “the solar system” because we use the word “solar” to describe things related to our star, after the Latin word for Sun, "solis."</p>
         <h1 className="card-text" style={{color: '#FFF', fontSize: '10mm',marginBottom: '10px',textAlign:'center'}}>What Are The Nine Planets?</h1>
-        <p style={{fontSize:'8mm',color:'#FFF', textAlign: 'center'}}>In the following video you will Learn all about the planets in the Solar System</p>
-      <iframe style={{paddingLeft:'35px'}} width="1500" height="550" src="https://www.youtube.com/embed/lcZTcfdZ3Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p style={{fontSize:'8mm',color:'#FFF', textAlign: 'center',backgroundColor: 'black'}}>In the following video you will Learn all about the planets in the Solar System</p>
+      <iframe style={{paddingLeft:'230px'}} width="1300" height="550" src="https://www.youtube.com/embed/lcZTcfdZ3Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   )
 }
