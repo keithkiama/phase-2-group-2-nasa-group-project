@@ -7,7 +7,7 @@ const History = () => {
         <h2 style={{textAlign: 'center',color:'white', fontSize:'6mm'}}>The Most Influential Missions in Space Exploration</h2>
         <p style={{color: 'white',fontSize:'25px',paddingTop: ' 5px'}}>
             <strong>
-                "Pioneer 10 and 11"
+                Pioneer 10 and 11
             <br />
             </strong>
             "1972-2003"
@@ -23,7 +23,7 @@ const History = () => {
 
         <p style={{color: 'white',fontSize:'25px',paddingTop: ' 5px'}}>
             <strong>
-                "Venera probes"
+                Venera probes
             <br />
             </strong>
             "1961-1984"
@@ -39,7 +39,7 @@ const History = () => {
 
         <p style={{color: 'white',fontSize:'25px',paddingTop: ' 5px'}}>
             <strong>
-                "Hayabusa"
+                Hayabusa
             <br />
             </strong>
             "2003-2010"
@@ -53,7 +53,7 @@ const History = () => {
 
         <p style={{color: 'white',fontSize:'25px',paddingTop: ' 5px'}}>
             <strong>
-                "Vostok 1"
+                Vostok 1
             <br />
             </strong>
             "1961"
@@ -68,7 +68,7 @@ const History = () => {
 
         <p style={{color: 'white',fontSize:'25px',paddingTop: ' 5px'}}>
             <strong>
-                "The Space Shuttle"
+                The Space Shuttle
             <br />
             </strong>
             "1981-2011"
@@ -83,7 +83,7 @@ const History = () => {
 
         <p style={{color: 'white',fontSize:'25px',paddingTop: ' 5px'}}>
             <strong>
-                "New Horizons"
+                New Horizons
             <br />
             </strong>
             "2006-Present"
@@ -98,7 +98,7 @@ const History = () => {
 
         <p style={{color: 'white',fontSize:'25px',paddingTop: ' 5px'}}>
             <strong>
-                "Voyager 1 and 2"
+                Voyager 1 and 2
             <br />
             </strong>
             "1977-Present"
@@ -128,7 +128,7 @@ const History = () => {
 
         <p style={{color: 'white',fontSize:'25px',paddingTop: ' 5px'}}>
             <strong>
-                "Apollo 11"
+                Apollo 11
             <br />
             </strong>
             "1969"
@@ -143,7 +143,7 @@ const History = () => {
 
         <p style={{color: 'white',fontSize:'25px',paddingTop: ' 5px'}}>
             <strong>
-                "Cassini-Huygens"
+                Cassini-Huygens
             <br />
             </strong>
             "1997-Present"
