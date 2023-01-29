@@ -11,7 +11,7 @@ const Explore = () => {
       //self invoking function - a function that calls itself
       (async () => {
           try {
-              const resp = await fetch("http://localhost:5000/solar-system")
+              const resp = await fetch("https://json-server-dl1p.vercel.app/solar-system")
 
               console.log(resp);
               const data = await resp.json();

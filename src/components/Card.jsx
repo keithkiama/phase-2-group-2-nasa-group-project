@@ -5,7 +5,7 @@ const Card = ({name, image, description}) => {
 const [viewData,setViewData] = useState([])
 
 useEffect(() => {
-fetch("http://localhost:5000/solar-system")
+fetch("https://json-server-dl1p.vercel.app/solar-system")
 .then(res => res.json())
 .then(data => setViewData(data))
 }, [])
