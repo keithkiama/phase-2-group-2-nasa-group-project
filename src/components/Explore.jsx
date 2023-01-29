@@ -8,10 +8,22 @@ const Explore = () => {
     const [filtered, setFiltered] = useState(cards)
 
     useEffect(() => {
-        fetch('http://localhost:5000/solar-system')
-        .then((response) => response.json())
-        .then((data) => setCards(() => data))
-    },[])
+      //self invoking function - a function that calls itself
+      (async () => {
+          try {
+              const resp = await fetch("http://localhost:5000/solar-system")
+
+              console.log(resp);
+              const data = await resp.json();
+
+              console.log(data);
+              setCards(data);
+          } catch (error) {
+              setCards(null);
+          }
+      })();
+  }, []);
+
     useEffect(() =>{
       setFiltered(cards.filter((card) => card.name.toLowerCase().includes(search.toLowerCase())))
     },[search,cards]
